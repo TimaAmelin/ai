@@ -1,0 +1,73 @@
+.container{
+    width: 640px;
+    height: 884px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #f2f2f2;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    border: 1px solid black;
+}
+#canvas{
+    cursor: crosshair;
+}
+.scoreHolder{
+    width: 640px;
+    height: 160px;
+}
+.score{
+    width: 318px;
+    height: 78px;
+    border: 1px solid black;
+    float: left;
+    line-height:100px;
+    text-align: center;
+    font-size: 60px;
+    cursor: pointer;
+}
+.firstPlayer{
+    color: red;
+}
+.secondPlayer{
+    color: blue;
+}
+.player{
+    width: 278px;
+    height: 78px;
+    border: 1px solid black;
+    float: left;
+    line-height:100px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+#undo{
+    width: 78px;
+    height: 78px;
+}
+.undoImg{
+    width: 78px;
+    height: 78px;
+    border: 1px solid black;
+    float: left;
+    cursor: pointer;
+}
+.rules{
+    width: 640px;
+    height: fit-content;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+    font-size: 20px;
+}
+.mainMenuButton{
+    width: 638px;
+    height: 78px;
+    border: 1px solid black;
+    float: left;
+    line-height:100px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}

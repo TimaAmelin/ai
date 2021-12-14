@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/index.css">
+        <title>Игра с ИИ</title>
+    </head>
+    <body>
+        <div class="container">
+            <canvas id="canvas" height="640px" width="640px">
+
+            </canvas>
+            <div class="scoreHolder">
+                <div class="player firstPlayer">
+                    Player 1
+                </div>
+                <div class="undoImg" id="undoButton">
+                    <img src="./undo.jpg" id="undo">
+                </div>
+                <div class="player secondPlayer">
+                    Player 2
+                </div>
+                <div class="score firstPlayer" id="firstScore">
+                    0
+                </div>
+                <div class="score secondPlayer" id="secondScore">
+                    0
+                </div>
+                <div class="mainMenuButton">
+                    Main Menu
+                </div>
+            </div>
+            <div class="rules">
+                Игроки по очереди расставляют фишки. В конце игры подсчитываются очки следующим образом:
+                каждая линия(вертикальная или горизонтальная) или диагональ (при условии, что ее длина не меньше 4), на которой у данного игрока больше фишек, чем у его оппонента (но не меньше 4), приносит ему одно очко (независимо от того, на сколько фишек больше).
+                Если на линии одинаковое число фишек каждого игрока, то она не засчитывается никому.
+                Выигрывает игрок, набравший большее число очков.
+            </div>
+        </div>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>
